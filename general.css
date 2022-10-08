@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   color: #555;
 }
 
@@ -46,7 +46,6 @@ Business Navigation
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
 
 .business-nav-list {
   list-style: none;
@@ -677,4 +676,19 @@ Footer Section
 .copyright {
   display: flex;
   gap: 2rem;
+}
+
+/* 
+=======================
+Responsive
+=======================
+*/
+
+@media only screen and (max-width: 1140px) {
+  html {
+    font-size: 52.5%;
+  }
+  .container {
+    max-width: 135rem;
+  }
 }
