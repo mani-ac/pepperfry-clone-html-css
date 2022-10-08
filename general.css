@@ -688,4 +688,7 @@ Responsive
   html {
     font-size: 52.5%;
   }
+  .container {
+    max-width: 135rem;
+  }
 }
